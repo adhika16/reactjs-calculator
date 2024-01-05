@@ -1,11 +1,12 @@
 repo_name: adhika16/reactjs-calculator
 report_id: 0d20250f3f3715cc24e4c06a854747c2
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-22T05:16:12+00:00'
-requested_by: adhika16
+timestamp: '2024-01-05T08:36:05+00:00'
+requested_by: dependabot[bot]
 provider: github
 branch: master
-detected_tools_count: 11
+detected_tools_count: 16
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/adhika16/reactjs-calculator
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/adhika16/reactjs-calculator
   detection_source: Repo Metadata
 - name: Bootstrap
   description: Simple and flexible HTML, CSS, and JS for popular UI components and
@@ -37,7 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Adhika P
   last_updated_on: 2023-11-01 14:28:15.000000000 Z
@@ -51,10 +54,35 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Adhika P
+  last_updated_on: 2023-11-28 13:56:59.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
-  last_updated_on: 2023-11-13 08:53:10.000000000 Z
+  last_updated_on: 2023-12-11 08:51:06.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/public/robots.txt
+  detection_source: public/robots.txt
+  last_updated_by: Adhika P
+  last_updated_on: 2023-10-30 14:38:18.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -63,6 +91,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/adhika16/reactjs-calculator
   detection_source: Repo Metadata
 - name: npm
   description: The package manager for JavaScript.
@@ -72,6 +101,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package.json
   detection_source: package.json
   last_updated_by: Adhika P
   last_updated_on: 2023-10-30 14:38:18.000000000 Z
@@ -81,38 +111,65 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/public/index.html
   detection_source: public/index.html
   last_updated_by: Adhika P
   last_updated_on: 2023-10-30 14:38:18.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/public/robots.txt
+  detection_source: public/robots.txt
+  last_updated_by: Adhika P
+  last_updated_on: 2023-10-30 14:38:18.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 11.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Adhika P
+  last_updated_on: 2023-11-28 13:56:59.000000000 Z
 - name: "@testing-library/jest-dom"
   description: Custom jest matchers to test the state of the DOM
   package_url: https://www.npmjs.com/@testing-library/jest-dom
-  version: 6.1.4
+  version: 6.1.5
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
-  last_updated_on: 2023-11-13 08:53:10.000000000 Z
+  last_updated_on: 2023-12-04 08:20:15.000000000 Z
 - name: "@testing-library/react"
   description: Simple and complete React DOM testing utilities that encourage good
     testing practices
   package_url: https://www.npmjs.com/@testing-library/react
-  version: 14.1.0
+  version: 14.1.2
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
-  last_updated_on: 2023-11-13 08:53:10.000000000 Z
+  last_updated_on: 2023-12-04 08:20:15.000000000 Z
 - name: react-dom
   description: React package for working with the DOM
   package_url: https://www.npmjs.com/react-dom
@@ -123,10 +180,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
-  last_updated_on: 2023-11-13 08:53:10.000000000 Z
+  last_updated_on: 2023-12-04 08:20:15.000000000 Z
 - name: react-scripts
   description: Configuration and scripts for Create React App
   package_url: https://www.npmjs.com/react-scripts
@@ -137,7 +194,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Adhika P
+  last_updated_on: 2023-11-28 13:56:59.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/adhika16/reactjs-calculator/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
-  last_updated_on: 2023-11-13 08:53:10.000000000 Z
+  last_updated_on: 2023-12-11 08:51:06.000000000 Z
